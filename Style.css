@@ -1,0 +1,101 @@
+.nav-1{
+           height: 50px;
+           max-width: auto;
+           border: solid skyblue;
+           background-color: skyblue;
+	}
+	.nav-2{
+		text-align: right;
+		margin: 10px;
+		margin-right: 50px;
+	}
+	.nav-3{
+		margin: 20px;
+		text-decoration: none;
+	}
+	.nav-3:hover{
+		color: white;
+	}
+	.nav-logo{
+        margin-top: -37px;
+	}
+	.body-2{
+		height: 680px;
+		width: 1200px;
+/*		border: solid;*/
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+	}
+	.div-1{
+		height: 1000px;
+		width: auto;
+/*		border: solid;*/
+	}
+	.div-2{
+		height: 500px;
+		width: 362px;
+/*		border: solid;*/
+		display: inline-grid;
+	}
+	.label{
+		font-size: 20px;
+	}
+	.form{
+		height: 400px;
+		width: 380px;
+		background-color: ghostwhite;
+		border-radius: 10px;
+/*		border: solid;*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.firm{
+		height: 30px;
+		width: 500px;
+	}
+/*	For Smartphone*/
+	@media(min-width:301px) and (max-width:400px) 
+		{
+			.body-2{
+                   width:auto ;
+			}
+			.form{
+				max-width: auto;
+			}
+			.firm{
+				width: 300px;
+			}
+			.nav-2{
+				margin: 3px;
+			}
+			.body-2{
+				height: 150px;
+			}
+			.div-1{
+				height: 4000px;
+			}
+		}
+
+/*	For Tablets*/
+		@media(min-width: 700px) and (max-width: 900px)
+		{
+			.body-2{
+                   width:auto ;
+			}
+			.form{
+				max-width: auto;
+			}
+			.firm{
+				width: 300px;
+			}
+			.nav-2{
+				margin: 3px;
+			}
+			.body-2{
+				height: 350px;
+			}
+			.div-1{
+				height: 2000px;
+			}
+		}
